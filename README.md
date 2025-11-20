@@ -1,4 +1,4 @@
-# 🐍 Java Snake Game
+JAVA SNACK GAME
 
 A simple and fun **Snake Game built in Java** using **Swing and AWT**.  
 This project is a recreation of the classic Snake arcade game, designed to demonstrate **Java OOP principles, event handling, and GUI development**.  
@@ -56,10 +56,6 @@ Practice drawing 2D graphics with Swing
 
 Apply object-oriented programming concepts
 
-📷 Screenshots (Optional)
-
-(Add screenshots of your game here once you run it!)
-
 🤝 Contributing
 
 Contributions are welcome! Fork this repo and create a pull request with your improvements.
@@ -101,10 +97,6 @@ Learn how to handle keyboard events
 Practice drawing 2D graphics with Swing
 
 Apply object-oriented programming concepts
-
-📷 Screenshots (Optional)
-
-(Add screenshots of your game here once you run it!)
 
 🤝 Contributing
 
