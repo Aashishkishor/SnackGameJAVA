@@ -44,7 +44,7 @@ public class SnakeGame extends JFrame {
     }
 
     private void initializeGame() {
-        setTitle("🐍 Advanced Snake Game - Java");
+        setTitle("SnakeGameJava");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
 
@@ -279,7 +279,7 @@ public class SnakeGame extends JFrame {
 
     private void showAbout() {
         String message = """
-            🐍 Advanced Snake Game
+            SnakeGameJav
             Version 1.0
             
             Created with Java Swing
@@ -433,7 +433,7 @@ public class SnakeGame extends JFrame {
             g2d.setColor(new Color(25, 25, 112));
             g2d.setFont(new Font("Arial", Font.BOLD, 36));
 
-            String title = "🐍 SNAKE GAME";
+            String title = "SNAKE GAME";
             FontMetrics fm = g2d.getFontMetrics();
             int titleWidth = fm.stringWidth(title);
             g2d.drawString(title, (getWidth() - titleWidth) / 2, getHeight() / 3);
@@ -568,4 +568,5 @@ public class SnakeGame extends JFrame {
             game.setVisible(true);
         });
     }
+
 }
