@@ -1,5 +1,6 @@
-# 🐍 Professional Snake Game - Java Edition
+## SnakeGameJava
 
+SnackeGame Java is a simple, interactive Snake game developed in Java. This project is perfect for beginners who want to practice Java programming skills. It demonstrates fundamental concepts such as object-oriented programming, basic game mechanics, and GUI development with Java. Use this repository as a hands-on introduction to game development in Java.
 A modern, well-architected Snake Game built with Java Swing following **MVC (Model-View-Controller)** design patterns.
 
 ## ✨ Features
