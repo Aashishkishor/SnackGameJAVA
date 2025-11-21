@@ -1,166 +1,149 @@
-JAVA SNACK GAME
+# 🐍 Professional Snake Game - Java Edition
 
-A simple and fun **Snack Game built in Java** using **Swing and AWT**.  
-This project is a recreation of the classic Snake arcade game, designed to demonstrate **Java OOP principles, event handling, and GUI development**.  
+A modern, well-architected Snake Game built with Java Swing following **MVC (Model-View-Controller)** design patterns.
 
----
+## ✨ Features
 
-## 🎮 Game Overview
-In this game, you control a snake that moves around the screen to collect food.  
-- Each time the snake eats food, it grows longer.  
-- The player’s **score increases** with each successful collection.  
-- The game ends if the snake collides with the wall or its own body.
+- **Professional Architecture** - MVC design pattern for maintainability
+- **Configurable Difficulty** - Easy, Medium, Hard, Insane modes (press 1-4)
+- **Modern UI** - Enhanced graphics with grid, snake eyes, food shine effects
+- **Game States** - Menu, Playing, Paused, Game Over with overlays
+- **Responsive Controls** - Smooth arrow key controls with input buffering
+- **Statistics** - Real-time score, snake length, and difficulty display
+- **Pause System** - Press SPACE to pause/resume gameplay
+- **Clean Code** - Fully documented with Javadoc comments
 
- ## ⚙️ Features
-✅ Smooth gameplay using Java Swing `Timer`  
-✅ Real-time score tracking  
-✅ Snake grows after eating food  
-✅ Collision detection (walls & self)  
-✅ Simple and responsive controls (Arrow Keys)  
-✅ Lightweight and easy to run  
+## 🎮 How to Play
 
----
+### Controls
+- **Arrow Keys (↑↓←→)** - Move the snake
+- **SPACE** - Start game / Pause / Resume / Restart
+- **1-4** - Select difficulty (EASY, MEDIUM, HARD, INSANE)
+- **Q** - Quit game
 
-## 🛠️ Tech Stack
-- **Language:** Java (Core + OOP)  
-- **GUI Toolkit:** Swing & AWT  
-- **IDE:** IntelliJ IDEA
+### Objective
+- Eat food (red squares) to grow and score points
+- Avoid colliding with walls and yourself
+- Maximize your score!
 
-- ## 📁 Project Structure
+### Scoring
+- **+10 points** - For each food eaten
+- Difficulty increases when changing levels
 
+## 🚀 Quick Start
+
+### Download & Run (Pre-built JAR)
 ```
-SnackGameJAVA/
-│
-├── JavaProjectOnline/
-│   ├── src/
-│   │   ├── Main.java              # Main entry point (optional test file)
-│   │   └── SnakeGame.java         # Complete Snake Game implementation
-│   │
-│   ├── out/
-│   │   └── production/            # Compiled .class files
-│   │       └── JavaProjectOnline/
-│   │
-│   └── JavaProjectOnline.iml      # IntelliJ IDEA module file
-│
-├── .gitignore                     # Git ignore file
-└── README.md                      # Project documentation
+java -jar SnakeGame.jar
 ```
 
-### Key Files:
-- **SnakeGame.java**: Contains all game logic, GUI components, event handlers, and game loop
-- **Main.java**: Alternative entry point for testing
-- **JavaProjectOnline.iml**: IntelliJ IDEA project configuration
+### Build from Source
+```
+# Compile all files
+javac src/*.java -d out/
 
+# Create JAR file
+jar cfe SnakeGame.jar SnakeGame -C out/ .
 
-## 🚀 Installation & Setup
-
-### Prerequisites
-- Java Development Kit (JDK) 8 or higher
-- Any Java IDE (IntelliJ IDEA, Eclipse, NetBeans) or text editor
-- Git (for cloning the repository)
-
-### Steps to Run
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/Aashishkishor/SnackGameJAVA.git
-   cd SnackGameJAVA
-   ```
-
-2. **Open in IDE**
-   - Open IntelliJ IDEA (or your preferred IDE)
-   - Select `File > Open` and navigate to the `JavaProjectOnline` folder
-   - Wait for the project to load
-
-3. **Run the Game**
-   - Navigate to `src/SnakeGame.java`
-   - Right-click and select `Run 'SnakeGame.main()'`
-   - Or use the keyboard shortcut: `Shift + F10` (IntelliJ)
-
-4. **Play!**
-   - Use **Arrow Keys** (↑ ↓ ← →) to control the snake
-   - Collect food to grow and increase your score
-   - Avoid hitting walls or yourself!
-
-### Alternative: Command Line Compilation
-```bash
-cd JavaProjectOnline/src
-javac SnakeGame.java
-java SnakeGame
+# Run JAR
+java -jar SnakeGame.jar
 ```
 
-## 🎮 Game Controls
+### Run Directly (No JAR)
+```
+javac src/*.java -d out/
+java -cp out/ SnakeGame
+```
 
-| Key | Action |
-|-----|--------|
-| ↑ Up Arrow | Move Up |
-| ↓ Down Arrow | Move Down |
-| ← Left Arrow | Move Left |
-| → Right Arrow | Move Right |
+## 📁 Project Structure
 
+```
+SnakeGameJAVA/
+├── src/
+│   ├── SnakeGame.java          Main application & window
+│   ├── GameModel.java          Game logic (Model)
+│   ├── GamePanel.java          Rendering (View)
+│   ├── GameController.java     Input handling (Controller)
+│   ├── GameConfig.java         Configuration & constants
+│   └── GameState.java          Game state enumeration
+├── README.md                   This file
+├── ARCHITECTURE.md             Design documentation
+└── .gitignore
+```
 
+## 🏗️ Architecture
 
-- Run the Game:-
-- 
+This project uses **MVC (Model-View-Controller)** architecture:
 
-Add difficulty levels (Easy, Medium, Hard)
+- **Model** (`GameModel.java`) - Pure game logic, state management
+- **View** (`GamePanel.java`) - Rendering and visualization
+- **Controller** (`GameController.java`) - Input handling and coordination
 
-Save & display high scores
+### Benefits
+- ✅ Separation of concerns
+- ✅ Easy to test and extend
+- ✅ Maintainable and scalable
+- ✅ Professional code structure
 
-Add background music & sound effects
+See `ARCHITECTURE.md` for detailed design documentation.
 
-Improve UI with JavaFX
+## 🎯 Difficulty Levels
 
+| Level | Speed | Challenge |
+|-------|-------|----------|
+| EASY | 150ms | Beginner friendly |
+| MEDIUM | 100ms | Balanced gameplay |
+| HARD | 70ms | Fast-paced action |
+| INSANE | 40ms | Extreme challenge |
 
-🎯 Learning Outcomes
+## 💻 Requirements
 
-By building this project, you will:
+- Java 8 or higher
+- No external dependencies (pure Swing)
 
-Understand game loops and timers in Java
+## 📊 Code Quality
 
-Learn how to handle keyboard events
+- ✅ Full Javadoc documentation
+- ✅ MVC design pattern
+- ✅ Object-oriented principles
+- ✅ Performance optimized
+- ✅ Error handling
 
-Practice drawing 2D graphics with Swing
+## 🎓 Learning Outcomes
 
-Apply object-oriented programming concepts
+This project demonstrates:
+- Java Swing GUI development
+- Game development fundamentals
+- Design patterns (MVC)
+- Object-oriented programming
+- Event-driven programming
+- Timer-based game loops
+- Collision detection algorithms
+- Data structures (LinkedList, HashSet)
 
+## 🔮 Future Enhancements
 
-🤝 Contributing
+- High score persistence (file/database)
+- Multiplayer support
+- Sound effects and music
+- Power-ups and obstacles
+- Leaderboard system
+- Mobile port (Android)
 
-Contributions are welcome! Fork this repo and create a pull request with your improvements.
+## 📄 License
 
-
-📜 License
-
-This project is licensed under the MIT License – free to use, modify, and share.
-
-
-🌟 Show your support
-
-If you like this project, don’t forget to ⭐ star this repository on GitHub!
-
----
+This project is open source and available for educational purposes.
 
 ## 👨‍💻 Author
 
-**Aashish Kishor**
-- GitHub: [@Aashishkishor](https://github.com/Aashishkishor)
-- Repository: [SnackGameJAVA](https://github.com/Aashishkishor/SnackGameJAVA)
+**Aashish Kishor**  
+GitHub: [@Aashishkishor](https://github.com/Aashishkishor)  
+Project: SnakeGameJAVA
+
+## 🙏 Acknowledgments
+
+Built with Java Swing following professional game development patterns and best practices.
 
 ---
 
-## 📝 Acknowledgments
-
-- Inspired by the classic Nokia Snake game
-- Built as part of college Java programming coursework
-- Thanks to the Java Swing and AWT documentation
-
----
-
-Made with ❤️ by Aashish Kishor
-⭐ Star this repository if you found it helpful!
-
-
-
-
-
+**Ready to play? Download and run - it's that easy!** 🚀
