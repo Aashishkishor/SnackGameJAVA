@@ -59,7 +59,7 @@ java -cp out/ SnakeGame
 ## 📁 Project Structure
 
 ```
-SnakeGameJAVA/
+SnakeGameJAVA/JavaProjectOnline
 ├── src/
 │   ├── SnakeGame.java          Main application & window
 │   ├── GameModel.java          Game logic (Model)
