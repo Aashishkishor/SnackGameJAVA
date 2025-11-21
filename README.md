@@ -1,6 +1,6 @@
 JAVA SNACK GAME
 
-A simple and fun **Snake Game built in Java** using **Swing and AWT**.  
+A simple and fun **Snack Game built in Java** using **Swing and AWT**.  
 This project is a recreation of the classic Snake arcade game, designed to demonstrate **Java OOP principles, event handling, and GUI development**.  
 
 ---
