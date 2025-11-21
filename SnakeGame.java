@@ -7,7 +7,7 @@ public class SnakeGame extends JFrame {
     private Timer gameTimer;
     
     public SnakeGame() {
-        setTitle("Snake Game - Professional Edition");
+        setTitle("SnakeGameJava");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
