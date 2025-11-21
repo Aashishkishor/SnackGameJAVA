@@ -1,21 +1,5 @@
 JAVA SNACK GAME
 
-<div align="center">
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Swing](https://img.shields.io/badge/Swing-GUI-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
-![GitHub Stars](https://img.shields.io/github/stars/Aashishkishor/SnackGameJAVA?style=for-the-badge)
-
-**A classic Snake Game built with Java Swing & AWT**
-
-[Play Now](#-installation--setup) • [Features](#%EF%B8%8F-features) • [Documentation](#-project-structure)
-
-</div>
-
----
-
-
 A simple and fun **Snack Game built in Java** using **Swing and AWT**.  
 This project is a recreation of the classic Snake arcade game, designed to demonstrate **Java OOP principles, event handling, and GUI development**.  
 
@@ -27,20 +11,7 @@ In this game, you control a snake that moves around the screen to collect food.
 - The player’s **score increases** with each successful collection.  
 - The game ends if the snake collides with the wall or its own body.
 
-- ## 📸 Screenshots
-
-> **Note:** Add gameplay screenshots here to showcase your project!
-
-```
-Example:
-![Gameplay Screenshot](path/to/screenshot.png)
-![Game Over Screen](path/to/gameover.png)
-```
-
-**Tip:** You can record a GIF using tools like [ScreenToGif](https://www.screentogif.com/) or [LICEcap](https://www.cockos.com/licecap/) to show the game in action!
-
-
-## ⚙️ Features
+ ## ⚙️ Features
 ✅ Smooth gameplay using Java Swing `Timer`  
 ✅ Real-time score tracking  
 ✅ Snake grows after eating food  
@@ -129,7 +100,8 @@ java SnakeGame
 
 
 
-- Run the Game
+- Run the Game:-
+- 
 
 Add difficulty levels (Easy, Medium, Hard)
 
@@ -139,31 +111,6 @@ Add background music & sound effects
 
 Improve UI with JavaFX
 
-🎯 Learning Outcomes
-
-By building this project, you will:
-
-Understand game loops and timers in Java
-
-Learn how to handle keyboard events
-
-Practice drawing 2D graphics with Swing
-
-Apply object-oriented programming concepts
-
-🤝 Contributing
-
-Contributions are welcome! Fork this repo and create a pull request with your improvements.
-
-📜 License
-
-This project is licensed under the MIT License – free to use, modify, and share.
-
-🌟 Show your support
-
-If you like this project, don’t forget to ⭐ star this repository on GitHub!
-
-Improve UI with JavaFX
 
 🎯 Learning Outcomes
 
@@ -177,13 +124,16 @@ Practice drawing 2D graphics with Swing
 
 Apply object-oriented programming concepts
 
+
 🤝 Contributing
 
 Contributions are welcome! Fork this repo and create a pull request with your improvements.
 
+
 📜 License
 
 This project is licensed under the MIT License – free to use, modify, and share.
+
 
 🌟 Show your support
 
@@ -207,13 +157,10 @@ If you like this project, don’t forget to ⭐ star this repository on GitHub!
 
 ---
 
-<div align="center">
-
 Made with ❤️ by Aashish Kishor
-
 ⭐ Star this repository if you found it helpful!
 
-</div>
+
 
 
 
