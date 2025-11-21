@@ -1,5 +1,21 @@
 JAVA SNACK GAME
 
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Swing](https://img.shields.io/badge/Swing-GUI-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+![GitHub Stars](https://img.shields.io/github/stars/Aashishkishor/SnackGameJAVA?style=for-the-badge)
+
+**A classic Snake Game built with Java Swing & AWT**
+
+[Play Now](#-installation--setup) • [Features](#%EF%B8%8F-features) • [Documentation](#-project-structure)
+
+</div>
+
+---
+
+
 A simple and fun **Snack Game built in Java** using **Swing and AWT**.  
 This project is a recreation of the classic Snake arcade game, designed to demonstrate **Java OOP principles, event handling, and GUI development**.  
 
@@ -9,7 +25,20 @@ This project is a recreation of the classic Snake arcade game, designed to demon
 In this game, you control a snake that moves around the screen to collect food.  
 - Each time the snake eats food, it grows longer.  
 - The player’s **score increases** with each successful collection.  
-- The game ends if the snake collides with the wall or its own body.  
+- The game ends if the snake collides with the wall or its own body.
+
+- ## 📸 Screenshots
+
+> **Note:** Add gameplay screenshots here to showcase your project!
+
+```
+Example:
+![Gameplay Screenshot](path/to/screenshot.png)
+![Game Over Screen](path/to/gameover.png)
+```
+
+**Tip:** You can record a GIF using tools like [ScreenToGif](https://www.screentogif.com/) or [LICEcap](https://www.cockos.com/licecap/) to show the game in action!
+
 
 ## ⚙️ Features
 ✅ Smooth gameplay using Java Swing `Timer`  
@@ -26,16 +55,82 @@ In this game, you control a snake that moves around the screen to collect food.
 - **GUI Toolkit:** Swing & AWT  
 - **IDE:** IntelliJ IDEA
 
+- ## 📁 Project Structure
+
+```
+SnackGameJAVA/
+│
+├── JavaProjectOnline/
+│   ├── src/
+│   │   ├── Main.java              # Main entry point (optional test file)
+│   │   └── SnakeGame.java         # Complete Snake Game implementation
+│   │
+│   ├── out/
+│   │   └── production/            # Compiled .class files
+│   │       └── JavaProjectOnline/
+│   │
+│   └── JavaProjectOnline.iml      # IntelliJ IDEA module file
+│
+├── .gitignore                     # Git ignore file
+└── README.md                      # Project documentation
+```
+
+### Key Files:
+- **SnakeGame.java**: Contains all game logic, GUI components, event handlers, and game loop
+- **Main.java**: Alternative entry point for testing
+- **JavaProjectOnline.iml**: IntelliJ IDEA project configuration
+
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- Any Java IDE (IntelliJ IDEA, Eclipse, NetBeans) or text editor
+- Git (for cloning the repository)
+
+### Steps to Run
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Aashishkishor/SnackGameJAVA.git
+   cd SnackGameJAVA
+   ```
+
+2. **Open in IDE**
+   - Open IntelliJ IDEA (or your preferred IDE)
+   - Select `File > Open` and navigate to the `JavaProjectOnline` folder
+   - Wait for the project to load
+
+3. **Run the Game**
+   - Navigate to `src/SnakeGame.java`
+   - Right-click and select `Run 'SnakeGame.main()'`
+   - Or use the keyboard shortcut: `Shift + F10` (IntelliJ)
+
+4. **Play!**
+   - Use **Arrow Keys** (↑ ↓ ← →) to control the snake
+   - Collect food to grow and increase your score
+   - Avoid hitting walls or yourself!
+
+### Alternative: Command Line Compilation
+```bash
+cd JavaProjectOnline/src
+javac SnakeGame.java
+java SnakeGame
+```
+
+## 🎮 Game Controls
+
+| Key | Action |
+|-----|--------|
+| ↑ Up Arrow | Move Up |
+| ↓ Down Arrow | Move Down |
+| ← Left Arrow | Move Left |
+| → Right Arrow | Move Right |
+
+
+
 - Run the Game
 
-Open the project in your preferred Java IDE.
-
-Compile and run the file SnakeGame.java.
-
-Use Arrow Keys to control the snake.
-
-📌 Future Enhancements
-
 Add difficulty levels (Easy, Medium, Hard)
 
 Save & display high scores
@@ -68,22 +163,6 @@ This project is licensed under the MIT License – free to use, modify, and shar
 
 If you like this project, don’t forget to ⭐ star this repository on GitHub!
 
-Run the Game
-
-Open the project in your preferred Java IDE.
-
-Compile and run the file SnakeGame.java.
-
-Use Arrow Keys to control the snake.
-
-📌 Future Enhancements
-
-Add difficulty levels (Easy, Medium, Hard)
-
-Save & display high scores
-
-Add background music & sound effects
-
 Improve UI with JavaFX
 
 🎯 Learning Outcomes
@@ -109,6 +188,32 @@ This project is licensed under the MIT License – free to use, modify, and shar
 🌟 Show your support
 
 If you like this project, don’t forget to ⭐ star this repository on GitHub!
+
+---
+
+## 👨‍💻 Author
+
+**Aashish Kishor**
+- GitHub: [@Aashishkishor](https://github.com/Aashishkishor)
+- Repository: [SnackGameJAVA](https://github.com/Aashishkishor/SnackGameJAVA)
+
+---
+
+## 📝 Acknowledgments
+
+- Inspired by the classic Nokia Snake game
+- Built as part of college Java programming coursework
+- Thanks to the Java Swing and AWT documentation
+
+---
+
+<div align="center">
+
+Made with ❤️ by Aashish Kishor
+
+⭐ Star this repository if you found it helpful!
+
+</div>
 
 
 
